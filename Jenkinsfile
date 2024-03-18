@@ -18,7 +18,7 @@ pipeline {
                     sshPublisher(
                         publishers: [
                             sshPublisherDesc(
-                                configName: "web_test", // Jenkins에 설정된 SSH 서버 이름
+                                configName: "Web_test", // Jenkins에 설정된 SSH 서버 이름
                                 transfers: [
                                     sshTransfer(
                                         sourceFiles: "path/to/artifacts/**/*",
