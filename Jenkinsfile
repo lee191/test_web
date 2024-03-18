@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // GitHub에서 소스 코드를 가져오는 단계
-                git 'https://github.com/사용자명/저장소명.git'
+                git 'https://github.com/lee191/test_web.git'
             }
         }
 
